@@ -1,0 +1,46 @@
+html, body {
+    font-size:25px;
+    color:white;
+    font-family:monospace;
+}
+
+body {
+    background:#3945B7;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight:normal;
+    padding:0;
+    margin:0;
+}
+
+
+h1 {
+    text-transform:uppercase;
+}
+
+
+.home-grid {
+    display:grid;
+    grid-template-columns:400px 2fr;
+    grid-gap:2em;
+    margin:2em;
+}
+
+.home-grid-left {
+    text-align:right;
+}
+
+
+.home-grid-right {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0.5em;
+}
+
+.front-thumb {
+    border:4px solid white;
+    border-radius:10px;
+    aspect-ratio: 1/1;
+    
+}
